@@ -1,0 +1,14 @@
+API to Predict a model from UI using tarball
+---
+tags:
+  - Predict Image
+consumes:
+  - multipart/form-data
+parameters:
+  - in: formData
+    name: file
+    type: file
+    required: true
+responses:
+  "200":
+    description: OK
