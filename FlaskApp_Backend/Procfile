@@ -1,0 +1,3 @@
+gunicorn:
+	MLOD_SETTINGS=$(PWD)/configs/local.ini \
+	$(PWD)/bin/mlod gunicorn
